@@ -1,0 +1,14 @@
+--- 
+title: Microcuentos
+---
+
+<ul class="stories">
+  <% sorted_stories.each do |story| %>
+    <li>
+      <h2><%= story[:title] %></h2>
+      <span><%= get_pretty_date(story) %></span>
+      <p><%= story.compiled_content %></p>
+    </li>
+  <% end  %>
+</ul>
+

@@ -1,0 +1,148 @@
+body {
+  background: #cacaca;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+a:link, a:visited {
+  color: #594816;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7d6620;
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: oblique;
+}
+
+p {
+  line-height: 22px;
+  margin: 10px 0;
+}
+
+.outer-container {
+  margin: auto;
+  width: 889px;
+}
+
+header {
+  background: url(image/header.jpg) 0 -64px no-repeat;
+  height: 225px;
+  position: relative;
+}
+
+header a:link,
+header a:visited  {
+  bottom: 0;
+  color: #000000;
+  font-size: 32px;
+  font-style: oblique;
+  left: 0;
+  padding: 22px;
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+  top: 0;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+nav ul {
+  background: #000;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  background: #000000;
+  display: inline-block;
+}
+
+nav li:hover {
+ background: #078200;
+}
+
+nav li a:link,
+nav li a:visited {
+  color: #eaeaea;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #fefefe;
+}
+
+.content {
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 30px;
+}
+
+footer {
+  font-size: 12px;
+  margin: 15px auto;
+  text-align: center;
+  width: 300px;
+}
+
+.post aside {
+  color: #888;
+  padding: 8px 0;
+  border-bottom: 1px solid #aaa;
+}
+.post article {
+  margin: 10px 0 45px 0;
+}
+.post .read-more {
+  margin-top: 10px;
+}
+
+.stories li {
+  background: #A1CC31;
+  border-radius: 10px;
+  box-shadow: 3px 3px 0 0 #000000;
+  margin: 10px 0;
+  padding: 15px;
+}
+
+.stories h2 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0px 0 5px;
+}
+
+.stories span {
+  color: #666666;
+}
+
+.projects li {
+  margin: 10px 0;
+}
+
+.projects p {
+  padding: 10px 0;
+}
+
