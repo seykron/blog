@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Entre uno y el mundo - <%- page.title %></title>
+
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans'
+        rel='stylesheet' type='text/css'>
+
+    <%- css('css/reset') %>
+    <%- css('css/stylesheet') %>
+    <%- css('css/spiria') %>
+
+    <% if (theme.favicon){ %>
+      <link rel="icon" href="<%- theme.favicon %>">
+    <% } %>
+  </head>
+  <body>
+    <div class="outer-container">
+      <header>
+        <a href="/">Entre uno y el mundo</a>
+      </header>
+      <nav>
+        <ul>
+          <li><a class="active" href="/">Blog</a></li>
+          <% site.pages.each(function(page){ %>
+            <li><a href="/<%- page.path %>"><%- page.title %></a></li>
+          <% }) %>
+        </ul>
+      </nav>
+      <section id="main" class='content'>
+        <%- body %>
+      </section>
+      <% if (theme.sidebar && theme.sidebar !== 'bottom' &&
+        (is_home() || is_post() || is_category() || is_archive())) { %>
+
+        <aside id="sidebar"<% if (theme.sidebar === 'bottom'){ %> class="outer"<% } %>>
+          <% theme.widgets.forEach(function(widget){ %>
+            <%- partial('_widget/' + widget) %>
+          <% }) %>
+        </aside>
+      <% } %>
+      <footer>
+       <a rel="license"
+          href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">
+         <img alt="Creative Commons License"
+            style="border-width:0"
+            src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" />
+       </a><br />
+        This work is licensed under a <a rel="license"
+          href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+      </footer>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <%- js('js/script') %>
+  </body>
+</html>

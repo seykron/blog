@@ -1,0 +1,27 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+rss: /atom.xml
+
+# Content
+excerpt_link: Leer más
+fancybox: false
+
+# Sidebar
+sidebar: right
+widgets:
+- category
+- archive
+
+# - tag
+# - tagcloud
+# - recent_posts
+
+# Miscellaneous
+favicon: /favicon.png
+twitter: matias_mi
+google_plus:
+fb_admins:
+fb_app_id:
+
