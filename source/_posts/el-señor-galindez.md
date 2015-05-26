@@ -4,8 +4,8 @@ categories:
   - Personal
   - Teatro
 ---
-*"El Señor Galíndez es un misterio. Refleja la imagen del torturador inmerso en
-la normalidad de lo cotidiano."*
+*"[El Señor Galíndez](http://www.alternativateatral.com/ficha_obra.asp?codigo_obra=25352) es un misterio. Refleja la imagen del torturador inmerso
+en la normalidad de lo cotidiano."*
 
 ¿Qué pasa cuando entendemos que los torturadores que hicieron el trabajo sucio
 en la última dictadura están sueltos y podrían ser nuestros vecinos? En los
